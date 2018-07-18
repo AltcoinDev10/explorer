@@ -1,0 +1,506 @@
+
+> explorer@1.7.0 start /root/explorernuevo
+> node --stack-size=10000 ./bin/cluster
+
+Starting cluster with pid: 6522
+[90mGET /masternodes [36m304 [90m980ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m9ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m6ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m9ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m2ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /api/getdifficulty [32m200 [90m19ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m9ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m8ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m3ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m9ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m10ms - 113b[0m
+[90mGET /api/masternode?command=list [32m200 [90m99ms - 66.42kb[0m
+[90mGET /ext/summary [32m200 [90m164ms - 363b[0m
+[90mGET /ext/masternodes?_=1527920287773 [32m200 [90m139ms - 22.61kb[0m
+[90mGET /movement [32m200 [90m630ms - 9.38kb[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m9ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m9ms[0m
+[90mGET /api/getdifficulty [32m200 [90m2ms - 17b[0m
+[90mGET /ext/getlasttxs/100?_=1527920294206 [32m200 [90m91ms - 62.88kb[0m
+[90mGET /api/getnetworkhashps [32m200 [90m82ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m161ms - 363b[0m
+[90mGET /ext/getlasttxs/100?_=1527920294207 [32m200 [90m137ms - 62.88kb[0m
+[90mGET /api/getdifficulty [32m200 [90m3ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m4ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m1ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m1ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m53ms - 363b[0m
+[90mGET /ext/getlasttxs/100?_=1527920294208 [32m200 [90m51ms - 62.88kb[0m
+[90mGET /movement [36m304 [90m863ms[0m
+[90mGET /api/getdifficulty [32m200 [90m4ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m9ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m1ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m64ms - 363b[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /api/getdifficulty [32m200 [90m5ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m15ms - 3b[0m
+[90mGET /ext/getlasttxs/100?_=1527920414546 [32m200 [90m67ms - 62.88kb[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m11ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m118ms - 363b[0m
+[90mGET /masternodes [36m304 [90m681ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m2ms[0m
+[90mGET /api/getdifficulty [32m200 [90m6ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m13ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m8ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m9ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m100ms[0m
+[90mGET /api/masternode?command=list [32m200 [90m88ms - 66.42kb[0m
+[90mGET /ext/masternodes?_=1527920415975 [32m200 [90m105ms - 22.61kb[0m
+[90mGET / [36m304 [90m693ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m0ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920417573 [32m200 [90m63ms - 40.24kb[0m
+[90mGET /api/getdifficulty [32m200 [90m107ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m4ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m10ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m23ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m14ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m256ms[0m
+[90mGET /masternodes [36m304 [90m554ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m24ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /api/getdifficulty [32m200 [90m56ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m4ms - 12b[0m
+[90mGET /api/masternode?command=list [32m200 [90m67ms - 66.42kb[0m
+[90mGET /ext/masternodes?_=1527920420638 [32m200 [90m76ms - 22.61kb[0m
+[90mGET /api/getconnectioncount [32m200 [90m69ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m106ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m13ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m10ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m297ms[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /coininfo [32m200 [90m759ms - 9.15kb[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /api/getdifficulty [32m200 [90m2ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m1ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m43ms[0m
+[90mGET /api/getdifficulty [32m200 [90m3ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m1ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m41ms[0m
+[90mGET /api/getdifficulty [32m200 [90m15ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m6ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m5ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m12ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m13ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m126ms - 363b[0m
+[90mGET /api/getdifficulty [32m200 [90m36ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m3ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m4ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m4ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m9ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m143ms - 362b[0m
+[90mGET / [36m304 [90m931ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m0ms[0m
+[90mGET /api/getdifficulty [32m200 [90m2ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m11ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920609343 [32m200 [90m49ms - 40.24kb[0m
+[90mGET /ext/summary [36m304 [90m99ms[0m
+[90mGET /api/masternode?command=count [32m200 [90m12ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /coininfo [32m200 [90m1091ms - 9.15kb[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [32m200 [90m11ms - 3.97kb[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m0ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m2ms[0m
+[90mGET /api/getdifficulty [32m200 [90m3ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m47ms[0m
+[90mGET / [36m304 [90m791ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m4ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m16ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m2ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m0ms[0m
+[90mGET /api/getdifficulty [32m200 [90m3ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m1ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m10ms - 113b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920630558 [32m200 [90m41ms - 40.24kb[0m
+[90mGET /api/masternode?command=count [32m200 [90m36ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m86ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /api/getdifficulty [32m200 [90m5ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m9ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m3ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m4ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920609344 [32m200 [90m33ms - 40.24kb[0m
+[90mGET /api/masternode?command=count [32m200 [90m31ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m87ms - 362b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920630559 [32m200 [90m70ms - 40.24kb[0m
+[90mGET /api/getdifficulty [32m200 [90m6ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m3ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m156ms - 362b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920609345 [32m200 [90m129ms - 40.24kb[0m
+[90mGET /api/getdifficulty [32m200 [90m127ms - 16b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m7ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m10ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m6ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m13ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m345ms - 362b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920630560 [32m200 [90m40ms - 40.24kb[0m
+[90mGET /api/getdifficulty [32m200 [90m3ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m2ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m1ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m10ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m100ms - 363b[0m
+[90mGET /api/getdifficulty [32m200 [90m8ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m10ms - 12b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920609346 [32m200 [90m54ms - 40.24kb[0m
+[90mGET /api/getconnectioncount [32m200 [90m3ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m7ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m14ms - 113b[0m
+[90mGET /ext/summary [32m200 [90m158ms - 363b[0m
+[90mGET / [36m304 [90m1050ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m2ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m7ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m5ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m0ms[0m
+[90mGET /api/getdifficulty [32m200 [90m18ms - 17b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920791386 [32m200 [90m30ms - 40.24kb[0m
+[90mGET /api/getnetworkhashps [32m200 [90m28ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m15ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m113ms[0m
+[90mGET / [36m304 [90m867ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m5ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m0ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /api/getdifficulty [32m200 [90m8ms - 17b[0m
+[90mGET /api/getnetworkhashps [32m200 [90m4ms - 12b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920792835 [32m200 [90m55ms - 40.24kb[0m
+[90mGET /api/getconnectioncount [32m200 [90m11ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m6ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m15ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m9ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m150ms[0m
+[90mGET / [36m304 [90m1254ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m3ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m0ms[0m
+[90mGET /api/getdifficulty [32m200 [90m17ms - 17b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920801596 [32m200 [90m77ms - 40.24kb[0m
+[90mGET /api/getnetworkhashps [32m200 [90m4ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m2ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m1ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m13ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m175ms[0m
+[90mGET / [36m304 [90m710ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m6ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m33ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m5ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m2ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m0ms[0m
+[90mGET /api/getdifficulty [32m200 [90m16ms - 17b[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920803129 [32m200 [90m35ms - 40.24kb[0m
+[90mGET /api/getnetworkhashps [32m200 [90m31ms - 12b[0m
+[90mGET /api/getconnectioncount [32m200 [90m3ms - 3b[0m
+[90mGET /api/getblockcount [32m200 [90m2ms - 4b[0m
+[90mGET /api/masternode?command=count [32m200 [90m6ms - 113b[0m
+[90mGET /api/masternode?command=count [32m200 [90m8ms - 113b[0m
+[90mGET /ext/summary [36m304 [90m110ms[0m
+Cluster shutting down..
+[90mGET / [36m304 [90m889ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m2ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m2ms[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920838593 [32m200 [90m47ms - 40.24kb[0m
+[90mGET /ext/summary [36m304 [90m142ms[0m
+[90mGET /richlist [32m200 [90m1329ms - 58.34kb[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m0ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m0ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m1ms[0m
+[90mGET /ext/summary [36m304 [90m75ms[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920609347 [32m200 [90m46ms - 40.24kb[0m
+[90mGET /ext/summary [36m304 [90m103ms[0m
+[90mGET /ext/summary [36m304 [90m74ms[0m
+[90mGET /ext/getlasttxs/0.00000001?_=1527920609348 [32m200 [90m34ms - 40.24kb[0m
+[90mGET /ext/summary [32m200 [90m96ms - 363b[0m
+[90mGET /masternodes [36m304 [90m967ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m2ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m4ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m2ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m2ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m3ms[0m
+[90mGET /ext/summary [32m200 [90m89ms - 363b[0m
+[90mGET /ext/masternodes?_=1527920916787 [32m200 [90m100ms - 22.62kb[0m
+[90mGET /coininfo [32m200 [90m841ms - 9.15kb[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.dateAxisRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.ohlcRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.highlighter.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.barRenderer.min.js [36m304 [90m0ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.pieRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /vendor/jqplot/plugins/jqplot.categoryAxisRenderer.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/chart.js [36m304 [90m1ms[0m
+[90mGET /javascripts/analytics.js [36m304 [90m1ms[0m
+[90mGET /images/logo.png [36m304 [90m1ms[0m
+[90mGET /themes/fonts/glyphicons-halflings-regular.woff2 [36m304 [90m0ms[0m
+[90mGET /ext/summary [36m304 [90m55ms[0m
+[90mGET /themes/Cosmo/bootstrap.min.css [36m304 [90m2ms[0m
+[90mGET /vendor/jqplot/jquery.jqplot.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+/root/explorernuevo/routes/index.js:401
+    if (difficulty['proof-of-work']) {
+                  ^
+
+TypeError: Cannot read property 'proof-of-work' of undefined
+    at /root/explorernuevo/routes/index.js:401:19
+    at Request._callback (/root/explorernuevo/lib/explorer.js:83:14)
+    at self.callback (/root/explorernuevo/node_modules/request/request.js:187:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (/root/explorernuevo/node_modules/request/request.js:813:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at Socket.socketErrorListener (_http_client.js:310:9)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at emitErrorNT (net.js:1281:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
